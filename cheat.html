@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <style>
+        /* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the header */
+header {
+    background-color: #8B4513; /* Brown background color */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Style the main content */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Style the square sections */
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the horizontal section */
+.hz-lorem {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* Style the paragraph section */
+.p-lorem {
+    flex: 2;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+    </style>
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PAGE 1</a></li>
+            <li><a href="#">PAGE 2</a></li>
+            <li><a href="#">PAGE 3</a></li>
+            <li><a href="#">PAGE 4</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>SIMPLE BROWN BACKGROUND</h1>
+    </header>
+
+    <main>
+        <input type="check">
+        <section class="square"></section>
+        <section class="square"></section>
+        <section class="square"></section>
+        <section class="hz-lorem">
+            <h2>LOREM IPSUM</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </section>
+        <section class="p-lorem">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </section>
+    </main>
+</body>
+</html>
+
+<!doctype html>
+<html>
+<body>
+<form>
+<label for="text">Name</label>
+<input type="text" id="text" name="t"/><br>
+<label for="textarea">Address</label>
+<input type="textarea" name="t2"/><br>
+<label for="male">Male</label>
+<input type="radio" name="t"/>
+<label for="female">Female</label>
+<input type="radio" name="t"/><br>
+<label for="course">MCA</label>
+<input type="checkbox" name="c1"/>
+<label for="course">BCA</label>
+<input type="checkbox" name="c2"/><br>
+<input type="submit" name="b1" value="register"/>
+</body>
+</form>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The select element</h1>
+<p>The select element is used to create a drop-down list.</p>
+<form>
+  <label for="courses">Choose a course:</label>
+  <select name="course" id="course">
+    <option value="MCA">MCA</option>
+    <option value="BCA">BCA</option>
+    <option value="BSC.IT">BSC.IT</option>
+    <option value="CSE">CSE</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The datalist element</h1>
+<form>
+  <label for="courses">Choose your course from the list:</label>
+  <input list="courses" name="course" id="course">
+  <datalist id="courses">
+    <option value="MCA">
+    <option value="BCA">
+    <option value="BSC.IT">
+    <option value="CSE">
+  </datalist>
+  <input type="submit">
+</form>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The fieldset and legend element</h1>
+<form>
+ <fieldset>
+  <legend>Registeration Form:</legend>
+  <label for="fname">First name:</label>
+  <input type="text"  name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text"  name="lname"><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>
+</body>
+</html>
+
+
+
+<!DOCTYPE html> 
+<html> 
+<head> <title>Bold Text Example</title> </head> 
+<body> 
+<p><b>This is the example of bold typeface. </b> </p>
+<p><u>This is the example of underlined typeface</u>
+    <p><strike>This is the example of strikethrough typeface.</strike></p>
+    <p>this is the example of <del>del tag</del> <ins>but inserted tag</ins></p> 
+ </body> 
+</html>
+
+<!DOCTYPE html>
+ <html>
+ <head> <title>Span Tag Example</title> 
+</head>
+ <body> 
+<p>This is the example of <span style = "color:green">span tag</span> is the<span style = "color:red">inline container
+</span> used to mark up a part of a text</p> 
+</body> 
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Block level elements example</h1>
+<p>These three elements are used to create a description list:</p>
+<dl>
+  <dt>GEHU</dt>
+  <dd>School of Computing</dd>
+  <dt>Courses</dt>
+  <dd>MCA, BCA, BSC-IT</dd>
+</dl>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Example of blockquote element</h1>
+<p>Here is a quote from CGL Global website:</p>
+<blockquote cite="https://edu.gcfglobal.org/en/internetbasics/what-is-the-internet/1/">
+The Internet is an increasingly important part of everyday life for people around the world. 
+But if you've never used the Internet before, 
+all of this new information might feel a bit confusing at first.
+</blockquote>
+</body>
+</html>
+
+The <section> element defines a section in a document.
+    <!DOCTYPE html>
+    <html>
+    <body>
+    <section>
+      <h1>HTTP PROTOCOL</h1>
+      <p>HTTP is a protocol which allows the fetching of resources, such as HTML documents. It is the
+    foundation of any data exchange on the Web and it is a client-server protocol, which means
+    requests are initiated by the recipient, usually the Web browser .</p>
+    </section>
+    <section>
+      <h1>INTERNET</h1>
+      <p>Internet is a collection of millions of computers around the world that are all connected to one another. It is a global network of computers. p>
+    </section>
+    </body>
+    </html>
+    The <article> element specifies independent, self-contained content.
+        <!DOCTYPE html>
+        <html>
+        <body>
+        <h1>The article element</h1>
+        <article>
+          <h2>INTERNET</h2>
+          <p>Internet is a collection of millions of computers around the world that are all connected to one another. It is a global network of computers. p>
+        </article>
+        <article>
+          <h2> WWW </h2>
+          <p>It is a collection of millions of websites. A web site contains different web pages containing information. </p>
+        </article>
+        <article>
+          <h2> E Mail </h2>
+          <p>Stand for electronic mail. It is the exchange of messages and files using internet..</p>
+        </article>
+        </body>
+        </html>
+        <!DOCTYPE html>
+<html>
+<body>
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/PhP/">PHP</a>
+</nav>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+<footer>
+  <p>Author: Author’s name</p>
+  <p><a href=“www.gehu.ac.in"></a></p>
+</footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+<p>Internet is a collection of millions of computers around the world that are all connected to one another.p>
+<aside>
+  <h4>IntraNet</h4>
+  <p>It is a private and secure business network. It uses Internet technology to provide information to the employees of the organization.</p>
+</aside>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Figure and Figcaption example</h2>
+<p>HTTP is a protocol which allows the fetching of resources, such as HTML documents.</p>
+<figure>
+<img src="pic.jpg" alt="alternate text if image is unable to load">
+<figcaption>Fig.1 - beautiful hut.</figcaption>
+</figure>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Example of main element</h1>
+<main>
+  <h1>HTTP Protocol</h1>
+  <p>HTTP is a protocol which allows the fetching of resources, such as HTML documents.</p>
+  <article>
+    <h2>HTTP EXAMPLE</h2>
+    <p>HTTP is a protocol which allows the fetching of resources, such as HTML documents. </p>
+  </article>
+  <article>
+    <h2>Internet</h2>
+    <p>Internet is a collection of millions of computers around the world that are all connected to one another. It is a global network of computers.</p>
+  </article>
+  <article>
+    <h2>WWW:</h2>
+    <p>It is a collection of millions of websites. A web site contains different web pages containing information.</p>
+  </article>
+</main>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Example of details element</h1>
+<details>
+ <summary> SOC</summary>
+  <p>School of Computing Department</p>
+</details>
+<p><b>Note:</b> The details element is not supported in Edge (prior version 79).</p>
+</body>
+</html>
+
+<!doctype html>
+<html>
+<body>
+<header>
+<h1>GEHU</h1>
+<h2>courses</h2>
+</header>
+<nav>
+<a href="#">HOME</a>
+<a href="#">contact us</a>
+</nav>
+<details open>
+<summary>computer</summary>
+<p> Add some text here</p>
+</details>
+<hgroup style="color:red">
+<h1>hello</h1>
+<h2>mca</h2>
+<h3>bca</h3>
+</hgroup>
+<section>
+<h1>MCA</h1>
+<p> Add some text here </p>
+<aside style="width:35%;float:right;background-color:grey">
+<p> Add some text here </p>
+</aside>
+<article>
+<h1>full stack</h1>
+<p> Add some text here </p>
+</article>
+</section>
+<section>
+<h1>BCA</h1>
+<p> Add some text here </p>
+</section>
+<footer>
+<a href="#">home</a>
+<p>copyright</p>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html> 
+<html> 
+<head>
+ <title>Hyperlink Example</title> 
+<base href = "https://www.gehu.ac.in/">
+ </head> 
+<body> 
+<p>Click following link</p> 
+<a href = "/html/index.htm" target = "_blank">linking example</a>
+ </body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
